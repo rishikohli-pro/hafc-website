@@ -1,0 +1,26 @@
+.companyCard {
+  padding: 20px 8vw;
+
+  border-radius: 4px;
+
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.companyCard:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-5px);
+}
+
+.companyCard__image {
+  max-width: 8vw;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .companyCard {
+    padding: 22px 20vw;
+  }
+  .companyCard__image {
+    max-width: 30vw;
+  }
+}

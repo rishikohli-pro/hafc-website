@@ -1,0 +1,24 @@
+.call-button {
+  padding: 20px 30px 20px 30px;
+  background-color: #f9a524;
+  border-radius: 5px;
+  max-width: 18vw;
+}
+
+.button-text {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 786px) {
+  .call-button {
+    padding: 10px 20px 10px 20px;
+    margin: 10px 30px 10px 10px;
+    max-width: 45vw;
+  }
+  .button-text {
+    font-size: 0.8rem;
+  }
+}
