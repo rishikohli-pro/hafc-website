@@ -20,6 +20,7 @@ import hitachi from "./Assets/Logos/Hitachi.png";
 import indesit from "./Assets/Logos/Indesit.png";
 import siemens from "./Assets/Logos/Siemens.png";
 import miele from "./Assets/Logos/Miele.png";
+import { ElfsightWidget } from "react-elfsight-widget";
 
 function App() {
   return (
@@ -66,6 +67,10 @@ function App() {
         <div className="info1__right">
           <img className="info1__img" src={fridge} />
         </div>
+      </div>
+      <hr />
+      <div className="contact">
+        <ElfsightWidget widgetID="e316c02f-0912-4e99-ba01-62c6a01e6722" />
       </div>
       <hr />
       <h1 className="t4">Our Services</h1>

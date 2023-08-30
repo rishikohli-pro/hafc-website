@@ -138,6 +138,10 @@ p {
   margin-bottom: 10vh;
 }
 
+.contact {
+  margin-bottom: 30px;
+}
+
 @media screen and (max-width: 768px) {
   .banner {
     display: none;
