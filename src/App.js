@@ -76,11 +76,6 @@ function App() {
       <h1 className="t4">Our Services</h1>
       <div className="services">
         <Service
-          image={aircon}
-          title="AC Repair"
-          description="Our AC repair services in Dubai include cleaning, inspection, and repair of all types of AC units, ensuring optimal cooling and energy efficiency. Contact us now for fast and reliable services."
-        />
-        <Service
           image={fridge2}
           title="Refrigerator Repair"
           description="Our refrigerator repair services in Dubai cover fixing leaks, replacing compressors, and repairing faulty thermostats. Contact us now for fast and affordable services that ensure optimal cooling efficiency."
@@ -90,11 +85,7 @@ function App() {
           title="Dishwasher Repair"
           description="Our dishwasher repair services in Dubai cover motor problems, drainage issues, and malfunctioning parts. Contact us now for quick and reliable services that ensure optimal dishwasher performance."
         />
-        <Service
-          image={tv}
-          title="TV Led Repair"
-          description="We at Quick Repair Technicians have TV repair Dubai, Abu Dhabi, Sharjah experts to fix all kinds of television issues."
-        />
+
         <Service
           image={washer}
           title="Washer Dryer Repair"
