@@ -10,7 +10,7 @@ function Navbar() {
         <img className="navbar__image" src={Logo} alt="logo" />
       </div>
       <div className="navbar__right">
-        <CallButton color="#F9A524" text="Call Us +971-04-3382777" />
+        <CallButton link="tel:+971566060173" text="Call Us +971-566060173" />
       </div>
     </div>
   );

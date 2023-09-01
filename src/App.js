@@ -6,9 +6,8 @@ import CallButton from "./Components/CallButton/CallButton";
 import Company from "./Components/Company/Company";
 import fridge from "./Assets/fridge.jpg";
 import fridge2 from "./Assets/fridge2.jpg";
-import aircon from "./Assets/aircon.jpg";
 import washer from "./Assets/washer.jpg";
-import tv from "./Assets/tv.jpg";
+
 import oven from "./Assets/oven.jpg";
 import dishwasher from "./Assets/dishwasher.jpg";
 import Service from "./Components/Service/Service";
@@ -33,7 +32,7 @@ function App() {
           <p className="t2">HOME APPLIANCE FIXER</p>
           <p className="t3">In Dubai</p>
           <p className="t1">WE REPAIR ALL COMMERCIAL & HOME APPLIANCES</p>
-          <CallButton text="Whatsapp" />
+          <CallButton link="https://wa.me/971566060173" text="Whatsapp" />
         </div>
       </div>
       <div className="mobBanner">
