@@ -125,7 +125,7 @@ p {
   font-family: "Red Hat Display", Open Sans;
   font-weight: 800;
   line-height: 1.1em;
-  font-size: 42px;
+  font-size: 36px;
   text-shadow: 2px 2px 19px;
 }
 
@@ -142,6 +142,32 @@ p {
   margin-bottom: 30px;
 }
 
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 6vh;
+  margin-bottom: 10vh;
+  align-items: center;
+}
+
+.location__1 {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-items: center;
+  gap: 5vw;
+}
+
+.location__list {
+  color: #252a3f;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
 @media screen and (max-width: 768px) {
   .banner {
     display: none;
@@ -152,6 +178,7 @@ p {
     flex-direction: column;
     margin-top: 7vh;
     background-size: contain;
+    align-items: center;
   }
 
   .t2m {
@@ -161,7 +188,7 @@ p {
     line-height: 1.1em;
     font-size: 32px;
     text-shadow: 0 0 3px black, 0 0 5px black;
-    padding: 16vw;
+    padding: 10vw;
   }
   .info1 {
     flex-direction: column-reverse;
@@ -188,5 +215,9 @@ p {
   }
   .infotext3 {
     text-align: center;
+  }
+  .location__1 {
+    flex-direction: column;
+    align-items: center;
   }
 }
