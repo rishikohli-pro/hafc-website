@@ -20,11 +20,17 @@ import indesit from "./Assets/Logos/Indesit.png";
 import siemens from "./Assets/Logos/Siemens.png";
 import miele from "./Assets/Logos/Miele.png";
 import { ElfsightWidget } from "react-elfsight-widget";
+import { useEffect } from "react";
+import TagManager from "react-gtm-module";
 
 function App() {
+  useEffect(() => {
+    TagManager.initialize({ gtmId: "GTM-K952WDS9" });
+  }, []);
   return (
     <div className="App">
       <Navbar />
+      <ElfsightWidget widgetId="505460a8-c99c-4903-9f6b-c3a45f6f1e45" />
       <div className="banner">
         <img className="banner__image" src={Banner} alt="banner" />
         <div className="banner__text">
